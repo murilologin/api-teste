@@ -18,13 +18,13 @@ public class SwaggerConfig {
     @Bean
     public OpenAPI springShopOpenAPI() {
         return new OpenAPI()
-                .info(new Info().title("Library API")
-                        .description("API de livros <strong>LibraryAPI</strong>.")
+                .info(new Info().title("Cadastro WEB API")
+                        .description("Cadastro WEB API <strong>ApiTeste</strong>.")
                         .version("v1.0.0")
                         .contact(new Contact()
-                                .email("contato@libraryapi.com.br")
-                                .url("https://www.libraryapi.com.br")
-                                .name("Library API")))
+                                .email("murilo.login@gmail.com")
+                                .url("https://www.linkedin.com/in/jorge-murilo-049b18175")
+                                .name("Cadastro WEB API")))
                 .components(new Components()
                         .addSecuritySchemes("bearer-key",
                                 new SecurityScheme().type(SecurityScheme.Type.HTTP).scheme("bearer").bearerFormat("JWT")));

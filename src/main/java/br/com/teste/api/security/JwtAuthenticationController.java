@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.server.ResponseStatusException;
 
 import java.util.Objects;
-@Api("Book API")
+@Api("Teste API")
 @RestController
 @CrossOrigin
 public class JwtAuthenticationController {
